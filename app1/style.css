@@ -15,18 +15,20 @@
 
 .box {
   height: 100px;
-  min-width: 192px;
   flex-grow: 1;
 }
 
 .box1 {
   background-color: red;
+  flex-basis: 100px;
 }
 
 .box2 {
   background-color: blue;
+  flex-basis: 300px;
 }
 
 .box3 {
   background-color: green;
+  flex-basis: 500px;
 }
