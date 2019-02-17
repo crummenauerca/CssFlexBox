@@ -8,24 +8,25 @@
 .flex-container {
   background-color: #fff;
   display: flex;
+  flex-wrap: wrap;
+  /* flex-wrap: wrap-reverse; */
+  /* flex-wrap: nowrap; */
 }
 
 .box {
   height: 100px;
-  width: 512px;
+  min-width: 192px;
+  flex-grow: 1;
 }
 
 .box1 {
   background-color: red;
-  flex-shrink: 1;
 }
 
 .box2 {
   background-color: blue;
-  flex-shrink: 2;
 }
 
 .box3 {
   background-color: green;
-  flex-shrink: 3;
 }
