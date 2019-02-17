@@ -12,21 +12,20 @@
 
 .box {
   height: 100px;
-  /* min-width: 100px; */
-  /* flex-grow: 1; */
+  width: 512px;
 }
 
 .box1 {
   background-color: red;
-  flex-grow: 1;
+  flex-shrink: 1;
 }
 
 .box2 {
   background-color: blue;
-  flex-grow: 2;
+  flex-shrink: 2;
 }
 
 .box3 {
   background-color: green;
-  flex-grow: 3;
+  flex-shrink: 3;
 }
